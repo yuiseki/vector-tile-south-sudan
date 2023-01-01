@@ -16,10 +16,6 @@ targets = \
 	docs/openmaptiles/fonts/Open\ Sans\ Italic/0-255.pbf \
 	docs/openmaptiles/fonts/Open\ Sans\ Regular/0-255.pbf \
 	$(region_pbf) \
-	$(admin_osmjson) \
-	$(admin_geojson) \
-	$(admin_poly) \
-	$(admin_pbf) \
 	$(mbtiles) \
 	$(tilejson) \
 	$(zxy_metadata) \
@@ -124,7 +120,7 @@ $(mbtiles):
 			tilemaker \
 				--threads 3 \
 				--skip-integrity \
-				--input /$(admin_pbf) \
+				--input /$(region_pbf) \
 				--output /$(mbtiles)
 
 #
