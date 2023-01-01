@@ -10,14 +10,14 @@
   "minzoom": 0,
   "maxzoom": 14,
   "bounds": [
-    139.762267,
-    35.694803,
-    139.809803,
-    35.731623
+    23.424911,
+    3.461547,
+    35.962977,
+    12.239366
   ],
   "center": [
-    139.786035,
-    35.713213,
+    29.693944,
+    7.850456,
     7
   ],
   "vector_layers": [
@@ -25,7 +25,8 @@
       "id": "place",
       "fields": {
         "class": "String",
-        "name:latin": "String"
+        "name:latin": "String",
+        "rank": "Number"
       },
       "minzoom": 0,
       "maxzoom": 14
@@ -61,6 +62,7 @@
     {
       "id": "waterway",
       "fields": {
+        "brunnel": "String",
         "class": "String",
         "intermittent": "Number",
         "name:latin": "String"
@@ -104,7 +106,8 @@
     {
       "id": "water",
       "fields": {
-        "class": "String"
+        "class": "String",
+        "intermittent": "String"
       },
       "minzoom": 6,
       "maxzoom": 14
@@ -120,19 +123,32 @@
     },
     {
       "id": "aeroway",
-      "fields": {},
+      "fields": {
+        "class": "String",
+        "ref": "String"
+      },
       "minzoom": 11,
       "maxzoom": 14
     },
     {
       "id": "aerodrome_label",
-      "fields": {},
+      "fields": {
+        "class": "String",
+        "ele": "Number",
+        "ele_ft": "Number",
+        "iata": "String",
+        "icao": "String",
+        "name:latin": "String"
+      },
       "minzoom": 10,
       "maxzoom": 14
     },
     {
       "id": "park",
-      "fields": {},
+      "fields": {
+        "class": "String",
+        "name:latin": "String"
+      },
       "minzoom": 11,
       "maxzoom": 14
     },
