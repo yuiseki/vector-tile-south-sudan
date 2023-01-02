@@ -19,6 +19,7 @@ layout:
   visibility: visible
 paint:
   line-color: '#9e9cab'
+  line-opacity: 0.5
   line-dasharray:
     - 3
     - 1

@@ -4,6 +4,7 @@ metadata:
   mapbox:group: '1444849345966.4436'
 source: openmaptiles
 source-layer: transportation
+minzoom: 2
 filter:
   - all
   - - '=='
@@ -28,9 +29,7 @@ paint:
   line-width:
     base: 1.2
     stops:
-      - - 8.5
-        - 0
-      - - 9
+      - - 2
         - 0.5
       - - 20
         - 18

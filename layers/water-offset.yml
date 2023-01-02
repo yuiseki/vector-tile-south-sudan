@@ -4,7 +4,7 @@ metadata:
   mapbox:group: '1444849382550.77'
 source: openmaptiles
 source-layer: water
-maxzoom: 8
+minzoom: 2
 filter:
   - '=='
   - $type
@@ -17,7 +17,7 @@ paint:
   fill-translate:
     base: 1
     stops:
-      - - 6
+      - - 2
         - - 2
           - 0
       - - 8
