@@ -65,6 +65,7 @@ layers:
   - !!inc/file layers/landcover-sand.yml
   - !!inc/file layers/building.yml
   - !!inc/file layers/building-top.yml
+  - !!inc/file layers/building-3d.yml
   - !!inc/file layers/tunnel-service-track-casing.yml
   - !!inc/file layers/tunnel-motorway-link-casing.yml
   - !!inc/file layers/tunnel-minor-casing.yml
